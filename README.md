@@ -28,7 +28,7 @@ $ python main.py
 ## Current State
 
 ### > Terminal
-![](currentState.png)
+![](images/currentState.png)
 
 ### > Notification
-![](Notification.png)
+![](images/Notification.png)
