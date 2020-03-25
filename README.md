@@ -15,4 +15,8 @@ $ python main.py
 
 ## Current State
 
+### > Terminal
 ![](currentState.png)
+
+### > Notification
+![](Notification.png)
