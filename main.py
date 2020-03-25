@@ -1,8 +1,7 @@
 import os
 from bs4 import BeautifulSoup
-from get_source import connect_source
-from notify_linux import sudo_notify
-from notify_windows import admin_notify
+from src.get_source import connect_source
+from src.notification.notify_linux import sudo_notify
 
 
 source = connect_source()
@@ -30,4 +29,5 @@ osys = os.uname()
 if osys.sysname == "Linux":
     sudo_notify(f"International Active Cases : {active_case.text}")
 if osys.sysname == "Windows":
+    from src.notification.notify_windows import admin_notify
     admin_notify(f"International Active Cases : {active_case.text}")
