@@ -32,3 +32,25 @@ $ python main.py
 
 ### > Notification
 ![](images/Notification.png)
+
+## Tree
+
+```shell
+
+.
+├── images
+│   ├── currentState.png
+│   └── Notification.png
+├── LICENSE
+├── main.py
+├── README.md
+└── src
+    ├── get_source.py
+    └── notification
+        ├── notify_linux.py
+        ├── notify_windows.py
+        └── __pycache__
+            └── notify_linux.cpython-36.pyc
+
+4 directories, 9 files
+```
