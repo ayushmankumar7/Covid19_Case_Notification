@@ -24,8 +24,8 @@ print("............................")
 active_case = soup.find("div", attrs = {'class':"number-table-main"})
 print("International Active Cases: ",active_case.text)
 
-osys = os.uname()
-if osys.sysname == "Linux":
+osys = platform.uname()
+if osys.system == "Linux":
     from src.notification.notify_linux import sudo_notify
     sudo_notify(f"International Active Cases : {active_case.text}")
 if platform.uname().system == "Windows":
