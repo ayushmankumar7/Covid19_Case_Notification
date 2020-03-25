@@ -19,6 +19,8 @@ $ python3 main.py
 ```shell
 $ pip install win10toast
 
+$ pip install requests
+
 $ pip install beautifulsoup4
 
 $ python main.py
