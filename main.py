@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup
 from get_source import connect_source
+from notify_linux import sudo_notify
+
+
 
 source = connect_source()
 
@@ -21,4 +24,4 @@ print("............................")
 
 active_case = soup.find("div", attrs = {'class':"number-table-main"})
 print("International Active Cases: ",active_case.text)
-
+sudo_notify(f"International Active Cases : {active_case.text}")
