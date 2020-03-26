@@ -38,21 +38,29 @@ $ python main.py
 ## Tree
 
 ```shell
-
 .
+├── app
+│   ├── flask_app.py
+│   └── __pycache__
+│       └── flask_app.cpython-36.pyc
 ├── images
 │   ├── currentState.png
 │   └── Notification.png
 ├── LICENSE
 ├── main.py
 ├── README.md
-└── src
-    ├── get_source.py
-    └── notification
-        ├── notify_linux.py
-        ├── notify_windows.py
-        └── __pycache__
-            └── notify_linux.cpython-36.pyc
+├── src
+│   ├── get_source.py
+│   ├── notification
+│   │   ├── notify_linux.py
+│   │   ├── notify_windows.py
+│   │   └── __pycache__
+│   │       └── notify_linux.cpython-36.pyc
+│   └── __pycache__
+│       └── get_source.cpython-36.pyc
+├── templates
+│   └── index.html
+└── wsgi.py
 
-4 directories, 9 files
+
 ```
