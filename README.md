@@ -64,3 +64,7 @@ $ python main.py
 
 
 ```
+
+## Current Technology Stack
+
+![](images/techStack.png)
