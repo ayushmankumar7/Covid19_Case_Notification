@@ -31,3 +31,10 @@ if osys.system == "Linux":
 if platform.uname().system == "Windows":
     from src.notification.notify_windows import admin_notify
     admin_notify(f"International Active Cases : {active_case.text}")
+
+
+try:
+    from src.database.firestore_connect import send_it 
+    send_it(active_case.text)
+except:
+    print("\x1b[0;33;41m' + 'FIRESTORE NOT SETUP' + '\x1b[0m")
