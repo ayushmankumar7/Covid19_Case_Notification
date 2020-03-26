@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+src/database/question-us-firebase-adminsdk-92oz0-fb023cef4f.json
