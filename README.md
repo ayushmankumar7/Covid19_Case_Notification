@@ -34,9 +34,9 @@ $ python main.py
 
 ### > Notification
 
-> Linux
+#### > Linux
 ![](images/Notification.png)
-> Windows
+#### > Windows
 ![](images/windows.png)
 
 ## Tree
