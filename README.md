@@ -38,21 +38,45 @@ $ python main.py
 ## Tree
 
 ```shell
-
 .
+├── app
+│   ├── flask_app.py
+│   └── __pycache__
+│       └── flask_app.cpython-36.pyc
+├── extras
+│   ├── index.html
+│   ├── main.js
+│   └── style.css
 ├── images
 │   ├── currentState.png
-│   └── Notification.png
+│   ├── Notification.png
+│   └── techStack.png
 ├── LICENSE
 ├── main.py
+├── question-us-firebase-adminsdk-92oz0-fb023cef4f.json
 ├── README.md
-└── src
-    ├── get_source.py
-    └── notification
-        ├── notify_linux.py
-        ├── notify_windows.py
-        └── __pycache__
-            └── notify_linux.cpython-36.pyc
+├── src
+│   ├── database
+│   │   ├── firestore_connect.py
+│   │   ├── __pycache__
+│   │   │   └── firestore_connect.cpython-36.pyc
+│   │   └── question-us-firebase-adminsdk-92oz0-fb023cef4f.json
+│   ├── get_source.py
+│   ├── notification
+│   │   ├── notify_linux.py
+│   │   ├── notify_windows.py
+│   │   └── __pycache__
+│   │       └── notify_linux.cpython-36.pyc
+│   └── __pycache__
+│       └── get_source.cpython-36.pyc
+├── templates
+│   └── index.html
+└── wsgi.py
 
-4 directories, 9 files
+
+
 ```
+
+## Current Technology Stack
+
+![](images/techStack.png)
