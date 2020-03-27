@@ -1,4 +1,4 @@
-# Covid19_Case_Notification
+﻿# Covid19_Case_Notification
 This a Python script which gives live updates on New Covid19 patients in a Particular country(here India by default)
 
 
@@ -33,7 +33,11 @@ $ python main.py
 ![](images/currentState.png)
 
 ### > Notification
+
+> Linux
 ![](images/Notification.png)
+> Windows
+![](images/windows.png)
 
 ## Tree
 
