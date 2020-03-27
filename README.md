@@ -1,4 +1,4 @@
-# Covid19_Case_Notification
+﻿# Covid19_Case_Notification
 This a Python script which gives live updates on New Covid19 patients in a Particular country(here India by default)
 
 
@@ -33,7 +33,11 @@ $ python main.py
 ![](images/currentState.png)
 
 ### > Notification
+
+#### > Linux
 ![](images/Notification.png)
+#### > Windows
+![](images/windows.png)
 
 ## Tree
 
@@ -43,13 +47,24 @@ $ python main.py
 │   ├── flask_app.py
 │   └── __pycache__
 │       └── flask_app.cpython-36.pyc
+├── extras
+│   ├── index.html
+│   ├── main.js
+│   └── style.css
 ├── images
 │   ├── currentState.png
-│   └── Notification.png
+│   ├── Notification.png
+│   └── techStack.png
 ├── LICENSE
 ├── main.py
+├── question-us-firebase-adminsdk-92oz0-fb023cef4f.json
 ├── README.md
 ├── src
+│   ├── database
+│   │   ├── firestore_connect.py
+│   │   ├── __pycache__
+│   │   │   └── firestore_connect.cpython-36.pyc
+│   │   └── question-us-firebase-adminsdk-92oz0-fb023cef4f.json
 │   ├── get_source.py
 │   ├── notification
 │   │   ├── notify_linux.py
@@ -61,6 +76,7 @@ $ python main.py
 ├── templates
 │   └── index.html
 └── wsgi.py
+
 
 
 ```
