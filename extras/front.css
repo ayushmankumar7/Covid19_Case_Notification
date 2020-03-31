@@ -1,0 +1,267 @@
+body
+{
+    margin:0;
+    padding:0;
+    height:100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#image{
+    background: #f39c12;
+}
+img{
+    background:#fff;
+    border:1px solid ;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#main{
+    background:linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url(banner.png);
+   /*-- filter:blur(5px);--*/
+    background-size: cover;
+    background-position: center;
+    height:40vh;
+    border:1px solid #000;
+    position:sticky;
+    top:0; 
+    padding:0px 25px;
+    z-index: 1;
+}
+nav{
+    background:rgba(221, 37, 37, 0.4);
+    border:1px solid #000;
+    width:100%;
+    line-height:60px;
+   
+}
+nav ul{
+    float:right;
+    margin:0;
+    padding-right:15px;
+}
+nav ul li{
+    display:inline-block;
+    padding:5px;
+    list-style: none;
+}
+nav ul li  a{
+    font-size: 12px;
+    display:block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    border:3px solid #fff;
+    text-transform: uppercase;
+    left:42%;
+    top:40%;
+    padding:5px;
+    margin: 10px;;
+    color:#fff;
+   
+}
+h1:hover{
+    background-color: #fff;
+    color:red;
+    transition:0.4s;
+}
+nav ul li a:hover
+{
+background-color: #fff;
+color:red;
+}
+section{
+    padding:40px 20px 20px 20px ;
+}
+h4
+{
+    border-bottom:1px solid black;
+    width: fit-content;
+    margin-left: 50px;
+   font-family:'Times New Roman', Times, serif;
+   text-transform: uppercase; 
+   font-size:40px;
+    padding-top:30px;
+    font-weight: bold;
+    color:#57606f
+}
+.container
+{
+    display:flex;
+    justify-content: space-around;
+}
+.container .box1,.box2,.box3
+{
+   /* border: 2px solid black;*/
+    height:250px;
+    position: relative;
+    overflow: hidden;
+
+}
+.box1 img
+{
+width:100%;
+height:100%;
+}
+.box2 img
+{
+width:100%;
+height:100%;
+}
+.box3 img
+{
+width:100%;
+height:100%;
+}
+.content1
+{
+background-color:rgba(0, 0,0, 0.8);
+color:white;
+position:absolute;
+height:100%;
+width:100%;
+top:0;
+left:-100%;
+padding: 20px;
+box-sizing: border-box;
+transition:0.5s
+}
+.content2
+{
+background-color:rgba(0, 0,0, 0.8);
+color:white;
+position:absolute;
+height:100%;
+width:100%;
+top:0;
+left:-100%;
+padding: 20px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+.content3
+{
+background-color:rgba(0, 0,0, 0.8);
+color:white;
+position:absolute;
+height:100%;
+width:100%;
+top:0;
+left:-100%;
+padding: 20px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+.box1:hover .content1
+{
+left:0;
+}
+.box2:hover .content2
+{
+left:0;
+}
+.box3:hover .content3
+{
+left:0;
+}
+.dev1
+{
+    height:400px;
+    width:400px;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    margin-top: 150px;  
+}
+.mar1
+{
+    width:100%;
+    height:20px;
+    background-color: #000;
+    margin-left:15px; 
+}
+
+.dev h5
+{
+    font-size:15px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: yellow;
+    width:fit-content;
+}
+.dev1 img
+{   height:300px;
+    width:300px;
+    border: 1px solid black;
+    border-radius:50%;
+    box-sizing: border-box;
+}
+.dev h6
+{   
+    font-size:25px;
+    text-align: start;
+    justify-content: center;
+    text-transform: uppercase;
+    border-bottom:1px solid #000;
+    width: fit-content;
+}
+footer
+{   position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    top:320vh;
+    color: blanchedalmond;
+}
+footer h6
+{
+    position: relative;
+    left:42%;
+    margin-left:20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    width: fit-content;
+}
+footer ul{
+    margin: 0;
+    padding:0;
+    display:flex;
+    position: relative;
+    left:42%;
+}
+footer ul li
+{
+list-style: none;
+margin:0px 5px;
+}
+footer ul li a
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+width:60px;
+height:60px;
+border-radius:50% ;
+box-sizing: border-box;
+text-decoration: none;
+color:#fff;
+}
+footer ul li a:hover
+{
+background-color: #fff;
+color:#000;
+}
+.mar
+{
+    width:100%;
+    height:20px;
+    background-color: #000;
+}
