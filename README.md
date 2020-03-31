@@ -13,6 +13,10 @@ $ pip3 install beautifulsoup4
 
 $ python3 main.py
 
+$ pip3 install flask
+
+$ pip3 install firebase-admin
+
 ```
 ### > Windows
 
@@ -24,6 +28,10 @@ $ pip install requests
 $ pip install beautifulsoup4
 
 $ python main.py
+
+$ pip install flask
+
+$ pip install firebase-admin
 
 ```
 
