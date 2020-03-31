@@ -53,8 +53,10 @@ $ pip install firebase-admin
 .
 ├── app
 │   ├── flask_app.py
-│   └── __pycache__
-│       └── flask_app.cpython-36.pyc
+│   ├── __pycache__
+│   │   └── flask_app.cpython-36.pyc
+│   └── templates
+│       └── index.html
 ├── extras
 │   ├── index.html
 │   ├── main.js
@@ -62,11 +64,13 @@ $ pip install firebase-admin
 ├── images
 │   ├── currentState.png
 │   ├── Notification.png
-│   └── techStack.png
+│   ├── techStack.png
+│   └── windows.png
 ├── LICENSE
 ├── main.py
 ├── question-us-firebase-adminsdk-92oz0-fb023cef4f.json
 ├── README.md
+├── run_main.sh
 ├── src
 │   ├── database
 │   │   ├── firestore_connect.py
@@ -74,6 +78,8 @@ $ pip install firebase-admin
 │   │   │   └── firestore_connect.cpython-36.pyc
 │   │   └── question-us-firebase-adminsdk-92oz0-fb023cef4f.json
 │   ├── get_source.py
+│   ├── MLmodel
+│   │   └── data.py
 │   ├── notification
 │   │   ├── notify_linux.py
 │   │   ├── notify_windows.py
@@ -81,8 +87,6 @@ $ pip install firebase-admin
 │   │       └── notify_linux.cpython-36.pyc
 │   └── __pycache__
 │       └── get_source.cpython-36.pyc
-├── templates
-│   └── index.html
 └── wsgi.py
 
 
