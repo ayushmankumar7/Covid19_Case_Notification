@@ -1,4 +1,4 @@
-body
+body/*body  layout*/
 {
     margin:0;
     padding:0;
@@ -7,15 +7,38 @@ body
     overflow-x: hidden;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.animate/*marquee animation*/
+{   display: flex;
+    position:absolute;
+    animation-name:marquee;
+    animation-duration: 12.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.animate h1
+{
+    text-transform: uppercase;
+    font-size:20px;
+    color:#fff;
+    padding: 0px 50px;
+    cursor:no-drop;
+}
+@keyframes marquee
+{
+    0%{position: relative; left:0%;}
+    100%{position:relative;left:100%;}
+}
 #image{
     background: #f39c12;
 }
+/*covid-19 image setup*/
 img{
     background:#fff;
     border:1px solid ;
     border-radius: 5px;
     box-sizing: border-box;
 }
+/*main menu bar setup*/
 #main{
     background:linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url(banner.png);
    /*-- filter:blur(5px);--*/
@@ -28,6 +51,7 @@ img{
     padding:0px 25px;
     z-index: 1;
 }
+/*navbar setup*/
 nav{
     background:rgba(221, 37, 37, 0.4);
     border:1px solid #000;
@@ -51,8 +75,9 @@ nav ul li  a{
     text-transform: uppercase;
     text-decoration: none;
     color:#fff;
-}
-h1{
+}/*navbar setup ends*/
+/*hyperlink tag explore setup*/
+.explore a{
     font-size: 20px;
     font-weight: bold;
     position: absolute;
@@ -63,9 +88,10 @@ h1{
     padding:5px;
     margin: 10px;;
     color:#fff;
-   
+    text-decoration: none;
+   cursor: pointer;
 }
-h1:hover{
+.explore a:hover{
     background-color: #fff;
     color:red;
     transition:0.4s;
@@ -75,8 +101,17 @@ nav ul li a:hover
 background-color: #fff;
 color:red;
 }
+
 section{
     padding:40px 20px 20px 20px ;
+}
+/*section first paragraph setup enter  desired text*/
+.font
+{
+font-weight:bold;
+color:grey;
+line-height: 1.5em;
+padding:0px 25px;
 }
 h4
 {
@@ -90,6 +125,7 @@ h4
     font-weight: bold;
     color:#57606f
 }
+/*slot setup*/
 .container
 {
     display:flex;
@@ -264,4 +300,7 @@ color:#000;
     width:100%;
     height:20px;
     background-color: #000;
+}
+span {
+    display: grid;
 }
