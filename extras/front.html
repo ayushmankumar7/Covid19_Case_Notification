@@ -9,8 +9,12 @@
 </head>
 <body>
     <header id="image">
-       
+       <div class="animate">
         <img src="shutterstock_338016263.jpg" width="150" height="50">
+          <h1>live update</h1>
+          <img src="shutterstock_338016263.jpg" width="150" height="50">
+       </div>
+        
    
     </header>
     <header id="main">
@@ -25,9 +29,13 @@
                 </ul>
             </div>
     </nav>
-    <h1>explore</h1>
+    <div class="explore">
+        <a href="#">explore</a>
+    </div>
+    
     </header>
     <section>
+        <div class="font">
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, veritatis iusto. Quae, labore repudiandae! Voluptatum tempora porro neque dolore mollitia, reprehenderit voluptas. Iusto, a vitae. Ad rem nobis consequatur doloribus.
         loeem
@@ -35,7 +43,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere doloribus neque eos numquam magnam assumenda illo iusto corporis consequatur inventore. Debitis, mollitia unde? Doloribus et dolorem quis harum eum cumque.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro necessitatibus alias a modi eum ducimus earum ipsam, eaque explicabo iure quidem nam! Error numquam modi est ducimus eum quibusdam sequi.
 
-        </p>
+        </p></div>
         <h4>what do we provide</h4>
         <div class="mar"></div>
     </section>
@@ -79,7 +87,8 @@
     <img src="IMG-20200330-WA0034.jpg">
     <br> <br>
     <h6>ayushman kumar</h6>
-    <h5>follow him on:</h5>
+    <span><h5>follow him on: </h5>  <a href="https://github.com/ayushmankumar7">https://github.com/ayushmankumar7</a>
+    </span>
     </div>
     </div>
     <br><br><br><br>
@@ -97,6 +106,21 @@
         </div>
         
     </footer>
+<script type="text/javascript">
+var scroll=window.pageYOffset;
+window.onscroll=function(){
+    var cscroll=window.pageYOffset;
+    if(cscroll<320)
+    {
+        document.getElementById("main").style.top="0";
+    }else{
 
+        document.getElementById("main").style.top="-50vh";
+       
+    }
+    scroll=cscroll;
+    
+}
+</script>
 </body>
 </html>
