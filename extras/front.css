@@ -30,6 +30,10 @@ body/*body  layout*/
 }
 #image{
     background: #f39c12;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    border-bottom:1px solid;
 }
 /*covid-19 image setup*/
 img{
@@ -46,10 +50,11 @@ img{
     background-position: center;
     height:40vh;
     border:1px solid #000;
-    position:sticky;
-    top:0; 
+   /*position:sticky;*/
+   
+    /*top:0;*/ 
     padding:0px 25px;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 /*navbar setup*/
 nav{
@@ -84,7 +89,7 @@ nav ul li  a{
     border:3px solid #fff;
     text-transform: uppercase;
     left:42%;
-    top:40%;
+    top:25%;
     padding:5px;
     margin: 10px;;
     color:#fff;
