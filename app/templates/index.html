@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  type="text/css" href="front.css">
+    <link rel="stylesheet"  type="text/css" href="{{ url_for('static', filename='css/front.css')}}">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>project</title>
 </head>
 <body>
     <header id="image">
        
-        <img src="shutterstock_338016263.jpg" width="150" height="50">
+        <img src="{{ url_for('static', filename='images/shutterstock_338016263.jpg')}}" width="150" height="50">
    
     </header>
     <header id="main">
@@ -43,7 +43,7 @@
     <div class="container">
     <section>
         <div class="box1">
-            <img src="download.jpg" >
+            <img src="{{ url_for('static', filename='images/download.jpg')}}" >
        <div class="content1">
          <h3>slot 1</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo, eos deleniti quidem sed rem tempora cupiditate fugiat alias, id obcaecati cum minus praesentium</p>
@@ -52,7 +52,7 @@
     </section>
     <section>
        <div class="box2">
-        <img src="download.jpg" > 
+        <img src="{{ url_for('static', filename='images/download.jpg')}}" > 
         <div class="content2">
         <h3>slot 2</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo, eos deleniti quidem sed rem tempora cupiditate fugiat alias, id obcaecati cum minus praesentium</p>
@@ -61,7 +61,7 @@
     </section>
     <section>
         <div class="box3">
-            <img src="download.jpg" >
+            <img src="{{ url_for('static', filename='images/download.jpg')}}" >
         <div class="content3">
             <h3>slot 3</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo, eos deleniti quidem sed rem tempora cupiditate fugiat alias, id obcaecati cum minus praesentium</p>
@@ -76,7 +76,7 @@
     <h4>developers corner</h4>
     <br> <br> 
     <div class="dev1">
-    <img src="IMG-20200330-WA0034.jpg">
+    <img src="{{ url_for('static', filename='images/IMG-20200330-WA0034.jpg')}}">
     <br> <br>
     <h6>ayushman kumar</h6>
     <h5>follow him on:</h5>
